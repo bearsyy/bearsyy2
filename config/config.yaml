@@ -77,6 +77,12 @@ platforms:
       name: "抖音"
     - id: "zhihu"
       name: "知乎"
+    - id: "Xinhua News Agency"
+      name: "新华社"
+    - id: "People's Daily"
+      name: "人民日报"
+    - id: "Beijing Daily"
+      name: "北京日报"
 
 
 

@@ -282,7 +282,7 @@ display:
     standalone: false # 独立展示区：完整热榜/RSS，不受关键词过滤（true=显示, false=隐藏）
   standalone:
     platforms: ["zhihu","toutiao","baidu","thepaper","bilibili-hot-search","douyin","weibo"] # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
-    rss_feeds: ["hacker-news","ruanyifeng","yahoo-finance"] # RSS 源 ID 列表（如 ["hacker-news"]）
+    rss_feeds: ["hacker-news","ruanyifeng","yahoo-finance","chinanews1","guanchazhe","chinanews4","cankao"] # RSS 源 ID 列表（如 ["hacker-news"]）
     max_items: 20                                # 每个源最多展示条数（0=不限制）
 
 

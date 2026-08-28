@@ -175,7 +175,7 @@ report:
 # 4.5 筛选策略
 # ===============================================================
 filter:
-  method: "keyword"                     # 筛选方式（二选一）
+  method: "ai"                     # 筛选方式（二选一）
                                        # keyword = 关键词匹配，不调用 AI，不消耗 token，但规则固定
                                        #           词组定义在 config/frequency_words.txt
                                        # ai = AI 智能分类，更灵活但每次运行消耗 token
@@ -238,8 +238,8 @@ display:
     rss: true # RSS 订阅区域（true=显示并分析, false=隐藏并跳过分析）
     standalone: false # 独立展示区：完整热榜/RSS，不受关键词过滤（true=显示, false=隐藏）
   standalone:
-    platforms: ["zhihu", "wallstreetcn-hot"]     # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
-    rss_feeds: []                                # RSS 源 ID 列表（如 ["hacker-news"]）
+    platforms: ["zhihu","toutiao","baidu","thepaper","bilibili-hot-search","douyin","weibo"] # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
+    rss_feeds: ["hacker-news","ruanyifeng","yahoo-finance"] # RSS 源 ID 列表（如 ["hacker-news"]）
     max_items: 20                                # 每个源最多展示条数（0=不限制）
 
 
